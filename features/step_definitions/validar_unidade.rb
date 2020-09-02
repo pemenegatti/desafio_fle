@@ -17,7 +17,6 @@
   end
   
   Entao('vejo qual Unidade foi selecionada') do
-    #NomeUnidadesHelpper.validar_nome_unidade
     NomeUnidadesHelpper.validar_nome_unidade
     expect(NomeUnidadesMappers.nome_unidade.text).to eql 'República do Líbano I'
   end
