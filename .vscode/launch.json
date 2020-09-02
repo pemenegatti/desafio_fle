@@ -10,11 +10,6 @@
             "request": "launch",
             "cwd": "${workspaceRoot}",
             "program": "C:/Ruby26-x64/bin/cucumber",
-            "env": {
-                "URl": "https://www.fleury.com.br/",
-                "UI": true,
-                "BROWSER": "chrome"
-            }
         }
     ]
 }
