@@ -4,7 +4,7 @@
 module AcessarSiteMappers
   class << self
     def url
-      'https://www.fleury.com.br/'
+      '/'
     end
   end
 end
